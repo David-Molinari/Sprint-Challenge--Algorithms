@@ -97,21 +97,12 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
+        # Check if the length of the list is greater than 1
+            # if not, pass
 
-        l = self._list
+        
 
-        if l == None:
-            return None
-
-        for i in range(0, len(l) - 1):
-            cur_index = i
-            smallest_index = cur_index
-            for j in range(i+1, len(l)):
-                if l[smallest_index] > l[j]:
-                    smallest_index = j
-
-            l[cur_index], l[smallest_index] = l[smallest_index], l[cur_index]
-        return l
+        
 
 
 if __name__ == "__main__":

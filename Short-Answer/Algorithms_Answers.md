@@ -48,7 +48,3 @@ Divide (top floor - (the middle floor plus 1)) by 2, and add that number to the
 middle floor plus 1. The resulting number is the new middle floor, and the new 
 bottom floor is the middle floor plus 1. Repeat the process starting at line 36 
 until floor f is identified.
-
-
-
-
